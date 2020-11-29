@@ -10,8 +10,16 @@ def scan(ip):
     arp_request_broadcast = broadcast/arp_request
     answered_list = scapy.srp(arp_request_broadcast, timeout=1, verbose=False)[0]
 
-    print("IP\t\t\tMAC Address\n------------------------------------------")
+    clients_list = []
     for element in answered_list:
-        print(element[1].psrc + "\t\t" + element[1].hwsrc)
+        client_dict = {"ip": element[1].psrc, "mac": element[1].hwsrc}
+        clients_list.append(client_dict)
+    return clients_list
 
-scan("RANGE_IP")
+def print_result(results_list):
+    print("IP\t\t\tMAC Address\n------------------------------------------")
+    for client in results_list:
+        print(client["ip"] + "\t\t" + client["mac"])
+
+scan_result = scan("RANGE_IP")
+print_result(scan_result)
