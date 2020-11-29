@@ -2,8 +2,8 @@
 
 import subprocess
 
-interface = "INTERFACE"
-new_mac = "MAC_ADDRESS"
+interface = input("Enter interface : ") # change input to raw_input for python2
+new_mac = input("Enter new mac : ") # change input to raw_input for python2
 
 print("[+] Changing MAC address for " + interface + " to " + new_mac)
 
