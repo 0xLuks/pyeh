@@ -2,11 +2,6 @@
 # Example
 # python network_scan.py -r x.x.x.x/24
 
-
-# Tested on Kali 2020.1
-# Example
-# python network_scan.py -r x.x.x.x/24
-
 #!/usr/bin/env python
 
 import scapy.all as scapy
