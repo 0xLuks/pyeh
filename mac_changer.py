@@ -1,6 +1,6 @@
 # Tested on Kali 2020.1
 # Example
-# python ./mac_changer.py -i eth0 -m 00:11:22:33:44:55:66
+# python mac_changer.py -i eth0 -m 00:11:22:33:44:55:66
 
 #!/usr/bin/env python
 
