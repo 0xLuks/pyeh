@@ -2,15 +2,21 @@
 # Example
 # python network_scan.py -r x.x.x.x/24
 
+
+# Tested on Kali 2020.1
+# Example
+# python network_scan.py -r x.x.x.x/24
+
 #!/usr/bin/env python
 
 import scapy.all as scapy
-import optparse
+import argparse
+
 
 def get_args():
-    parser = optparse.OptionParser()
-    parser.add_option("-r", "--range", dest="range", help="IP range.")
-    options, arguments = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-r", "--range", dest="range", help="IP range.")
+    options = parser.parse_args()
     return options
 
 def scan(ip):
@@ -32,4 +38,3 @@ def print_result(results_list):
 options = get_args()
 scan_result = scan(options.range)
 print_result(scan_result)
-
