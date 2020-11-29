@@ -14,4 +14,4 @@ def scan(ip):
     for element in answered_list:
         print(element[1].psrc + "\t\t" + element[1].hwsrc)
 
-scan("10.0.2.1/24")
+scan("RANGE_IP")
