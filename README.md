@@ -1,4 +1,4 @@
-# Python tools :snake:	
+# pytools :snake:	
 
 Repo that regroups the tools I learned to develop in python.
 
