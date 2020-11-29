@@ -1,4 +1,4 @@
-# pytools :snake:	
+# pyEH :snake:		
 
 Repo that regroups the tools I learned to develop in python.
 
