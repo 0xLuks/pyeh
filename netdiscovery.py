@@ -1,3 +1,5 @@
+# Tested on Kali 2020.1
+
 #!/usr/bin/env python
 
 import scapy.all as scapy
