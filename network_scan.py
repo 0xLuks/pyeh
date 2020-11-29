@@ -7,7 +7,6 @@
 import scapy.all as scapy
 import optparse
 
-
 def get_args():
     parser = optparse.OptionParser()
     parser.add_option("-r", "--range", dest="range", help="IP range.")
@@ -29,7 +28,6 @@ def print_result(results_list):
     print("IP\t\t\tMAC Address\n------------------------------------------")
     for client in results_list:
         print(client["ip"] + "\t\t" + client["mac"])
-
 
 options = get_args()
 scan_result = scan(options.range)
