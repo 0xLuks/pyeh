@@ -7,7 +7,6 @@
 import scapy.all as scapy
 import argparse
 
-
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("-r", "--range", dest="range", help="IP range.")
