@@ -9,3 +9,11 @@ pyEH is a collection of python scripts for ethical hacking.
 * [ARP Spoofer](https://github.com/lulzeDD/pyEH/blob/main/arp_spoofer.py)
 * [Packet Sniffer](https://github.com/lulzeDD/pyEH/blob/main/pkt_sniffer.py)
 
+## Web
+
+Soon
+
+## Malware
+
+Soon
+
