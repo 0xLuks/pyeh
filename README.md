@@ -1,6 +1,6 @@
 # pyeh :snake:		
 
-pyeh is a collection of scripts for python language learning in ethical hacking.
+pyeh is a collection of scripts for my python language learning in ethical hacking. Feel free to use it.
 
 ## Network
 
