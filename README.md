@@ -1,6 +1,6 @@
 # pyeh :snake:		
 
-pyeh is a collection of python scripts.
+pyeh is a collection of scripts for python language learning in ethical hacking.
 
 ## Network
 
