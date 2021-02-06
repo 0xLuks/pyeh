@@ -1,6 +1,6 @@
 # pylearn :snake:		
 
-pyeh is a collection of scripts to present my journey of learning the python language.</br>
+pylearn is a collection of scripts to present my journey of learning the python language.</br>
 Feel free to use it.
 
 ## Network
